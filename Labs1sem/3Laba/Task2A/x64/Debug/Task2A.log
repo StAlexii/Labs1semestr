@@ -1,0 +1,8 @@
+﻿  Task2A.c
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(15,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(15,42): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(15,63): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(15,84): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(15,105): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Task2A\Task2A.c(12,8): warning C4101: res: неиспользованная локальная переменная
+  Task2A.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Taks1\x64\Debug\Task2A.exe

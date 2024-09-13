@@ -1,4 +1,4 @@
 ﻿  Task3.c
 C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task3\Task3.c(3,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task3\Task3.c(16,2): warning C4098: main: функция типа "void", возвращающая значение
+C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task3\Task3.c(17,2): warning C4098: main: функция типа "void", возвращающая значение
   Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task1\x64\Debug\Task3.exe

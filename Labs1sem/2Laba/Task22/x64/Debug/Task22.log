@@ -1,0 +1,3 @@
+﻿  Task22.c
+C:\Users\User\VisualStudioProjects\Labs1sem\2Laba\Task22\Task22.c(4,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  Task22.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\2Laba\Task1\x64\Debug\Task22.exe

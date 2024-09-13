@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6ABDC06E-CE9D-4428-8C8A-3F8994CC723B}|..\\HomeTask\\HomeTask.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0489C68-EFF2-4FAA-8FB3-EACF74347CCC}|..\\Taks3\\Taks3.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67DD83BA-81B3-4998-A1EB-FC76A2366F8A}|Taks1.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67DD83BA-81B3-4998-A1EB-FC76A2366F8A}|Taks1.vcxproj|solutionrelative:Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C503DA-D36A-45DD-9716-180863E0A297}|..\\Task2A\\Task2A.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Task2A\\Task2A.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hometask.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c",
+              "RelativeDocumentMoniker": "..\\HomeTask\\Hometask.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c",
+              "RelativeToolTip": "..\\HomeTask\\Hometask.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T12:26:32.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task3.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c",
+              "RelativeDocumentMoniker": "..\\Taks3\\Task3.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c",
+              "RelativeToolTip": "..\\Taks3\\Task3.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T12:25:02.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task2A.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Task2A\\Task2A.c",
+              "RelativeDocumentMoniker": "..\\Task2A\\Task2A.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Task2A\\Task2A.c",
+              "RelativeToolTip": "..\\Task2A\\Task2A.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T12:03:21.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task1.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\Task1.c",
+              "RelativeDocumentMoniker": "Task1.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\Task1.c",
+              "RelativeToolTip": "Task1.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T11:21:02.434Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

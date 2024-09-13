@@ -1,5 +1,5 @@
 ﻿  Task4.c
 C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task4\Task4.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task4\Task4.c(34,2): warning C4098: date: функция типа "void", возвращающая значение
-C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task4\Task4.c(40,2): warning C4098: main: функция типа "void", возвращающая значение
+C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task4\Task4.c(35,2): warning C4098: date: функция типа "void", возвращающая значение
+C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task4\Task4.c(41,2): warning C4098: main: функция типа "void", возвращающая значение
   Task4.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\1Laba\Task1\x64\Debug\Task4.exe
