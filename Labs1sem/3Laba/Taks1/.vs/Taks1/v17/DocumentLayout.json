@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ABDC06E-CE9D-4428-8C8A-3F8994CC723B}|..\\HomeTask\\HomeTask.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B0489C68-EFF2-4FAA-8FB3-EACF74347CCC}|..\\Taks3\\Taks3.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0489C68-EFF2-4FAA-8FB3-EACF74347CCC}|..\\Taks3\\Taks3.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6ABDC06E-CE9D-4428-8C8A-3F8994CC723B}|..\\HomeTask\\HomeTask.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67DD83BA-81B3-4998-A1EB-FC76A2366F8A}|Taks1.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,24 +23,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Hometask.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c",
               "RelativeDocumentMoniker": "..\\HomeTask\\Hometask.c",
               "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\HomeTask\\Hometask.c",
               "RelativeToolTip": "..\\HomeTask\\Hometask.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-11T12:26:32.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T12:26:32.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Task3.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\3Laba\\Taks3\\Task3.c",
               "RelativeDocumentMoniker": "..\\Taks3\\Task3.c",

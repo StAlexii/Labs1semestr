@@ -1,4 +1,2 @@
 ﻿  Task3.c
-C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Taks3\Task3.c(6,10): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "char [2]"
-C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Taks3\Task3.c(6,19): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "char [2]"
   Taks3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\3Laba\Taks1\x64\Debug\Taks3.exe

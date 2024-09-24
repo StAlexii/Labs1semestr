@@ -1,0 +1,5 @@
+﻿  Task1.c
+C:\Users\User\VisualStudioProjects\Labs1sem\4Laba\Task1\Task1.c(11,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\4Laba\Task1\Task1.c(17,10): warning C4477: "scanf_s": в строке форматирования "%g" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "double *"
+C:\Users\User\VisualStudioProjects\Labs1sem\4Laba\Task1\Task1.c(25,14): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\4Laba\Task1\x64\Debug\Task1.exe
