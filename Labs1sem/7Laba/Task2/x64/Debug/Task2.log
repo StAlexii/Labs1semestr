@@ -1,0 +1,5 @@
+﻿  Task2.c
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Task2\Task2.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Task2\Task2.c(16,10): warning C4477: "scanf_s": в строке форматирования "%c" требуется аргумент типа "unsigned int", но вариативный аргумент "3" имеет тип "float *"
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Task2\Task2.c(16,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Task1\x64\Debug\Task2.exe

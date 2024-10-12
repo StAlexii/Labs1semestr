@@ -1,0 +1,6 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Test\Test.c(9,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Test\Test.c(15,13): warning C4477: "scanf_s": в строке форматирования "%c" требуется аргумент типа "unsigned int", но вариативный аргумент "3" имеет тип "float *"
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Test\Test.c(15,13): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Test\Test.c(42,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\7Laba\Task1\x64\Debug\Test.exe

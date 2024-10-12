@@ -1,0 +1,4 @@
+﻿  Task1.c
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task1\Task1.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task1\Task1.c(10,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task1\x64\Debug\Task0.exe

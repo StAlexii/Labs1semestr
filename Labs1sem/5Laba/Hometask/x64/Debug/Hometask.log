@@ -1,4 +1,5 @@
 ﻿  HomeTask.c
-C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Hometask\HomeTask.c(16,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Hometask\HomeTask.c(10,19): warning C4101: z: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Hometask\HomeTask.c(9,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Hometask\HomeTask.c(17,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Hometask\HomeTask.c(11,19): warning C4101: z: неиспользованная локальная переменная
   Hometask.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\5Laba\Task1\x64\Debug\Hometask.exe

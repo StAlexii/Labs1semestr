@@ -1,0 +1,6 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task3\Task3.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task3\Task3.c(14,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task3\Task3.c(16,10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "double"
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task3\Task3.c(8,6): warning C4101: res: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\8Laba\Task3\Task3.c(13,1): error C4700: использована неинициализированная локальная переменная "x"

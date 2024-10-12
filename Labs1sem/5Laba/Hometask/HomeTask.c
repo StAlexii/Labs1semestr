@@ -6,6 +6,7 @@
 // 0,000037
 
 int main() {
+	system("color F0");
 	setlocale(LC_ALL, "RUS");
 	float x, y, res, z;
 	printf("¬ведите значение x:\n");
