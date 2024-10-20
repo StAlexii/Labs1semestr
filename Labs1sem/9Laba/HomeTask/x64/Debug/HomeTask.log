@@ -1,0 +1,5 @@
+﻿  HomeTask.c
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\HomeTask\HomeTask.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\HomeTask\HomeTask.c(14,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\HomeTask\HomeTask.c(10,12): warning C4101: z: неиспользованная локальная переменная
+  HomeTask.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task1\x64\Debug\HomeTask.exe
