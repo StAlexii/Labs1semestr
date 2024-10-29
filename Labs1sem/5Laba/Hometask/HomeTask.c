@@ -18,6 +18,6 @@ int main() {
 	
 	printf("Результат расчёта: %f\n", res);
 
-	return 0;
-
+	return 0;//
+	x = 0.71 * pow(10, -4)
 }

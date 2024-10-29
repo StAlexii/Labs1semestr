@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-//45 и 70!!!
+//45 и 75!!!
 
 int main() {
 	system("color F0");
@@ -10,7 +10,7 @@ int main() {
 	int h, a, z, k = 0, aa;
 	char c;
 
-	printf("¬ведите символ дл€ рисовани€\n");
+	printf("¬ведите символ дл€ рисовани€\n"); 
 	scanf_s("%c", &c);
 	printf("¬ведите сторону параллелограмма:\n");
 	scanf_s("%d", &a);
@@ -19,18 +19,17 @@ int main() {
 	printf("¬ведите угол параллелограмма:\n");
 	scanf_s("%d", &aa);
 
-	for (int i = 0; i <= a; i++) 
-		printf("%c", c);
+
 	
 	printf("\n");
 
 	if ((aa > 0) && (aa <= 45)) {
 
-		for (int i = 0; i < h; i++) {
-			printf("%c", c);
+		for (int i = 1; i < h; i++) {
+		
 
-			for (int j = 0; j < a; j++) {
-				printf(" ");
+			for (int j = -1; j < a; j++) {
+				printf("*");
 			}
 
 			printf("%c", c);
@@ -49,11 +48,11 @@ int main() {
 
 	else if ((aa > 45) && (aa <= 90)) {
 
-		for (int i = 0; i < h; i++) {
-			printf("%c", c);
+		for (int i = 1; i < h; i++) {
+		
 
-			for (int j = 0; j < a; j++) {
-				printf(" ");
+			for (int j = -1; j < a; j++) {
+				printf("*");
 			}
 
 			printf("%c", c);

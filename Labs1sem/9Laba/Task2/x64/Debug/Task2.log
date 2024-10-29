@@ -1,5 +1,5 @@
 ﻿  Task2.c
 C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task2\Task2.c(5,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task2\Task2.c(92,9): warning C4477: "printf": в строке форматирования "%lld" требуется аргумент типа "__int64", но вариативный аргумент "1" имеет тип "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task2\Task2.c(93,9): warning C4477: "printf": в строке форматирования "%lld" требуется аргумент типа "__int64", но вариативный аргумент "1" имеет тип "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task2\Task2.c(58,9): warning C4477: "printf": в строке форматирования "%lld" требуется аргумент типа "__int64", но вариативный аргумент "1" имеет тип "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task2\Task2.c(59,9): warning C4477: "printf": в строке форматирования "%lld" требуется аргумент типа "__int64", но вариативный аргумент "1" имеет тип "int"
   Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task1\x64\Debug\Task2.exe

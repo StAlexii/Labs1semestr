@@ -1,2 +1,4 @@
 ﻿  Test.c
-  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Task1\x64\Debug\Test.exe
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Test\Test.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Test\Test.c(13,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\9Laba\Test\Test.c(5,12): error C1075: "{": не найдена несоответствующая лексема
