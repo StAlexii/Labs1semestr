@@ -1,0 +1,8 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(70,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(91,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(107,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(67,12): warning C4101: z: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(66,10): warning C4101: s: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task3\Task3.c(61,1): warning C4716: pain_paral: должна возвращать значение
+  Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task1\x64\Debug\Task3.exe

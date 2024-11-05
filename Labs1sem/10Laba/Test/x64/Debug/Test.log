@@ -1,2 +1,4 @@
 ﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Test\Test.c(22,12): warning C4566: символ, представленный универсальным именем символа "\u03C0", невозможно представить в текущей кодовой странице (1251)
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Test\Test.c(28,12): warning C4566: символ, представленный универсальным именем символа "\u2248", невозможно представить в текущей кодовой странице (1251)
   Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task1\x64\Debug\Test.exe
