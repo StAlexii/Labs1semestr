@@ -1,8 +1,10 @@
 ﻿  Task2.c
 C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(63,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(91,17): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(71,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(74,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(75,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(76,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(77,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(90,48): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task2\Task2.c(61,20): warning C4101: x2: неиспользованная локальная переменная
   Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\10Laba\Task1\x64\Debug\Task2.exe

@@ -1,7 +1,7 @@
 ﻿#include <stdio.h>
 #include <math.h>
 #include <locale.h>
-#define M_PI 3.14 //5 9 0,71 and 6 9 0,8
+#define M_PI 3.141592653589793238462643383279 //8 13 0.71 and 5 10 0.71
 
 double fucktorial(int n) {
     double result = 1;
@@ -50,7 +50,7 @@ double cott(double x, int terms) {
     for (int n = 1; n < terms; n++) {
         cot_x += sign * term;
         sign *= -1;
-        term *= x * x / (2 * n * (2 * n + 1));  // Вычисляем следующий член ряда
+        term *= x * x / (2 * n * (2 * n + 1));
     }
 
     return cot_x;
@@ -68,11 +68,11 @@ int main() {
     scanf_s("%d", &N);
     printf("Введите точность eps: ");
     scanf_s("%lf", &eps);
+    float x4 = x;
+    //x2 = x * M_PI / 180.0;
 
-    x2 = x * M_PI / 180.0;
-
-    float result1 = sin2(x, N);
-    float result2 = sin(x);
+    float result1 = sin(x);
+    float result2 = sin2(x, N);
     float result3 = sin_eps(x, eps);
     float result4 = cott(x, N);
 
@@ -80,17 +80,27 @@ int main() {
     printf("sin2(%f) = %.4f\n", x, result2);
     printf("sin3(%f) = %.4f\n", x, result3);
     printf("cot(%f) = %.4f\n\n", x, result4);
-    printf("|    N     |   sin_N  |  отколнение |\n");
+    printf("|    N     |        sin_N       |  отколнение |\n");
 
     float res2 = 0;
     int se = 0;
 
     for (int k = 0; k < N; k++) {
         int posl = 2 * k + 1;
-        double term = pow(-1, k) * pow(x, posl) / fucktorial(posl);
+        float term = pow(-1, k) * pow(x, posl) / fucktorial(posl);
         res2 += term;
         se++;
-        printf("|%10d|%10f|%13f|\n", se, res2, result2 - res2);
+        printf("|%10d|%20f|%13f|\n", se, res2, result2 - res2);
     }
+
+    /*double sin2(double x, int N) {
+        double result = 0.0;
+        for (int k = 0; k < N; k++) {
+            int posl = 2 * k + 1;
+            double term = pow(-1, k) * pow(x, posl) / fucktorial(posl);
+            result += term;
+        }
+        return result;
+    }*/
 
 }
