@@ -1,0 +1,6 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task3\Task3.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task3\Task3.c(11,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task3\Task3.c(13,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task3\Task3.c(15,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+  Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task3\x64\Debug\Task3.exe

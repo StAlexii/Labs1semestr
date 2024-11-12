@@ -54,7 +54,7 @@ int pain_paral(char c, int h, int a, int aa) {
 
 	}
 
-	for (int i = 0; i <= a; i++)
+	for (int i = 1; i < a; i++)
 		printf("%c", c);
 	printf("%c", c);
 }

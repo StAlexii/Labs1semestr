@@ -1,5 +1,4 @@
 ﻿  Task2.c
-C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task2\Task2.c(6,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task2\Task2.c(14,8): warning C4013: pow: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task2\Task2.c(14,34): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task2\Task2.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task2\Task2.c(16,7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
   Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\11Laba\Task1\x64\Debug\Task2.exe

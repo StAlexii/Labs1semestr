@@ -17,6 +17,7 @@ double sin2(double x, int N) {
         int posl = 2 * k + 1;
         double term = pow(-1, k) * pow(x, posl) / fucktorial(posl);
         result += term;
+
     }
     return result;
 }
@@ -69,7 +70,6 @@ int main() {
     printf("Введите точность eps: ");
     scanf_s("%lf", &eps);
     float x4 = x;
-    //x2 = x * M_PI / 180.0;
 
     float result1 = sin(x);
     float result2 = sin2(x, N);
@@ -92,6 +92,9 @@ int main() {
         se++;
         printf("|%10d|%20f|%13f|\n", se, res2, result2 - res2);
     }
+
+    for (int i = 1; i < N; i++)
+        printf("Факториал = %f\n", fucktorial(i));
 
     /*double sin2(double x, int N) {
         double result = 0.0;

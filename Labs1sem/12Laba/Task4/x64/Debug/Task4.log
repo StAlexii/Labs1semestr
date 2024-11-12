@@ -1,0 +1,14 @@
+﻿  Task4.c
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(18,8): warning C4552: "+": результат выражения не используется
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(20,8): warning C4552: "-": результат выражения не используется
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,22): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,27): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,32): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,37): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,47): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,52): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,57): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,62): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task4\Task4.c(9,67): warning C4305: инициализация: усечение из "double" в "float"
+  Task4.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task1\x64\Debug\Task4.exe

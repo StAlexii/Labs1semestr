@@ -1,0 +1,13 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(9,35): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(14,45): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(19,55): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(24,33): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(29,45): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(34,39): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(39,53): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(44,39): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(49,37): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(54,39): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Test\Test.c(59,47): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\12Laba\Task1\x64\Debug\Test.exe
