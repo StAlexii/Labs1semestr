@@ -1,0 +1,5 @@
+﻿  Task1.c
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\Task1.c(16,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\Task1.c(44,1): warning C4716: fille: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\Task1.c(53,1): warning C4716: pute: должна возвращать значение
+  Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\x64\Debug\Task1.exe

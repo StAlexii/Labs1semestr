@@ -1,0 +1,6 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task3\Task3.c(16,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task3\Task3.c(32,18): warning C4013: find_min_index: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task3\Task3.c(47,1): warning C4716: fille: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task3\Task3.c(56,1): warning C4716: pute: должна возвращать значение
+  Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\x64\Debug\Task3.exe

@@ -1,4 +1,8 @@
 ﻿  Task1.c
-C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(7,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(14,13): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(7,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(19,19): warning C4013: toupper: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(31,19): warning C4013: tolower: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(36,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(6,20): warning C4101: Name2: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\Task1.c(6,31): warning C4101: Name3: неиспользованная локальная переменная
   Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\13Laba\Task1\x64\Debug\Task1.exe
