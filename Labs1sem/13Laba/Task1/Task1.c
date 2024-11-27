@@ -60,5 +60,4 @@ int main() {
     printf("2\n");
     printf("%s\n\n", Snew); //2
 
-
 }

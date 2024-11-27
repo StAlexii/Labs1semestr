@@ -1,0 +1,4 @@
+﻿  HomeTask.c
+C:\Users\User\VisualStudioProjects\Labs1sem\18Laba\HomeWork\HomeTask.c(45,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\18Laba\HomeWork\HomeTask.c(74,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  HomeWork.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\18Laba\Task1\x64\Debug\HomeWork.exe

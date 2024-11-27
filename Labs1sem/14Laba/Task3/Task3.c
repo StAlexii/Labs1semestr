@@ -36,12 +36,13 @@ void main()
 
 double* fille(double* ptr_array, int n)
 {
-	double z = 1;
+	double z = -1;
 	for (int i = 0; i < n; i++)
 
 	{
-		ptr_array[i] = (pow(z, 3) - 4 * pow(z, 2) + 2);
-		z += 0.02;
+		ptr_array[i] = z;
+		//ptr_array[i] = (pow(z, 3) - 4 * pow(z, 2) + 2);
+		z -= 0.2;
 	}
 
 }

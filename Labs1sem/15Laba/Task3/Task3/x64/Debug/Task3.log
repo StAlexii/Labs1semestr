@@ -1,0 +1,5 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task3\Task3.c(11,33): warning C4013: rand: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task3\Task3.c(20,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task3\Task3.c(27,5): warning C4013: srand: нет определения; предполагается "extern" с возвратом типа "int"
+  Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task3\x64\Debug\Task3.exe

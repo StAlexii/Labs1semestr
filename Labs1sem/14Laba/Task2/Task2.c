@@ -37,8 +37,9 @@ void main()
 
 	double elem;
 	printf("Введите элемент, индекс которого нужно найти - ");
-	scanf_s("%f", &elem);
+	scanf_s("%lf", &elem);
 	int index = find_elem(array, size, elem);
+
 	if (index != -1)
 	{
 		printf("%d", index);
@@ -55,7 +56,8 @@ double* fill_elem(double* ptr_array, int n)
 	for (int i = 0; i < n; i++)
 
 	{
-		ptr_array[i] = (pow(z, 3) - 4 * pow(z, 2) + 2);
+		ptr_array[i] = z;
+		//ptr_array[i] = (pow(z, 3) - 4 * pow(z, 2) + 2);
 		z += 0.02;
 	}
 
@@ -86,15 +88,11 @@ double sum_elem(double* ptr_array, int begin, int end)
 	printf("Сумма элементов массива от индекса %d до индекса %d равна %f\n", begin, end, s);
 }
 
-int find_elem(double* ptr_array, int n, int elem)
-{
-	for (int i = 0; i < n; i++)
-	{
-		if (ptr_array[i] == elem)
-		{
+int find_elem(double* ptr_array, int n, double elem) {
+	for (int i = 0; i < n; i++) {
+		if (ptr_array[i] == elem) {
 			return i;
 		}
-		else return -1;
 	}
-
+	return -1;
 }

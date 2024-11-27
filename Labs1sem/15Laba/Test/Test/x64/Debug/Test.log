@@ -1,0 +1,5 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Test\Test.c(13,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Test\Test.c(13,12): warning C4313: printf: конфликт "%d" в строке формата с аргументом 1 типа "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Test\Test.c(14,1): warning C4716: fill_counters: должна возвращать значение
+  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Test\x64\Debug\Test.exe

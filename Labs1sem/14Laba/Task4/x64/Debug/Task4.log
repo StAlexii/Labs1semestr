@@ -1,0 +1,6 @@
+﻿  Task4.c
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task4\Task4.c(83,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task4\Task4.c(92,5): warning C4013: printe: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task4\Task4.c(125,1): warning C4716: fille: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task4\Task4.c(133,1): warning C4716: printe: должна возвращать значение
+  Task4.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\14Laba\Task1\x64\Debug\Task4.exe

@@ -1,0 +1,14 @@
+﻿  Task2.c
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(111,15): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(114,16): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(116,20): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(116,28): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(119,16): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(121,76): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(124,41): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(125,44): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(126,50): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(132,31): warning C4133: функция: несовместимые типы - из "double [7][7]" в "int (*)[7]"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(136,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "3" имеет тип "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\Task2.c(136,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 3 типа "int *"
+  Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\15Laba\Task2\x64\Debug\Task2.exe

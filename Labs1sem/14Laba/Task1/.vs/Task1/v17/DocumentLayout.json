@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60800D91-271A-4816-A44D-E790DF82661B}|..\\Task4\\Task4.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task4\\Task4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB10044E-7D6B-4E85-A8D9-D6EDE2FE4C05}|Task1.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB10044E-7D6B-4E85-A8D9-D6EDE2FE4C05}|Task1.vcxproj|solutionrelative:Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -20,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,40 +31,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Task1.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task1\\Task1.c",
               "RelativeDocumentMoniker": "Task1.c",
               "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task1\\Task1.c",
               "RelativeToolTip": "Task1.c",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAAAKAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-16T05:37:49.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T05:37:49.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Task2.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task2\\Task2.c",
               "RelativeDocumentMoniker": "..\\Task2\\Task2.c",
               "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task2\\Task2.c",
               "RelativeToolTip": "..\\Task2\\Task2.c",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF0AAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-16T06:22:14.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Task3.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task3\\Task3.c",
               "RelativeDocumentMoniker": "..\\Task3\\Task3.c",
               "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task3\\Task3.c",
               "RelativeToolTip": "..\\Task3\\Task3.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAC8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-16T06:47:34.287Z",
+              "WhenOpened": "2024-11-16T06:47:34.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task4.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task4\\Task4.c",
+              "RelativeDocumentMoniker": "..\\Task4\\Task4.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\14Laba\\Task4\\Task4.c",
+              "RelativeToolTip": "..\\Task4\\Task4.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-20T09:01:28.124Z",
               "EditorCaption": ""
             }
           ]
