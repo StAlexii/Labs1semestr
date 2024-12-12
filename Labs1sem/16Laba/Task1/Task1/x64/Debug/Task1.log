@@ -1,9 +1,5 @@
 ﻿  Task1.c
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(10,19): warning C4013: pow: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(34,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(45,11): warning C4477: "scanf_s": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "int *"
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(53,23): warning C4013: malloc: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(53,14): warning C4312: приведение типов: преобразование из "int" в "double *" большего размера
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(29,1): warning C4716: printe: должна возвращать значение
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(14,1): warning C4716: fille: должна возвращать значение
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(46,1): error C4700: использована неинициализированная локальная переменная "ptr_array"
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(31,1): warning C4716: printe: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(24,1): warning C4716: calce: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(16,1): warning C4716: fille: должна возвращать значение
+  Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\x64\Debug\Task1.exe

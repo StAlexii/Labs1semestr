@@ -1,0 +1,24 @@
+﻿  Task1.c
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(99,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(104,11): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(104,11): warning C4024: fille: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(105,12): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(105,12): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(107,16): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(107,16): warning C4024: bubbleSort: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(110,12): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(110,12): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(112,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(112,14): warning C4024: shaker_sort: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(115,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(115,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(117,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(117,14): warning C4024: select_sort: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(120,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(120,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(122,14): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(122,14): warning C4024: insert_sort: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(125,9): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "int *[10]"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(125,9): warning C4024: printe: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\Task1.c(11,1): warning C4716: fille: должна возвращать значение
+  Task17.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\x64\Debug\Task1.exe

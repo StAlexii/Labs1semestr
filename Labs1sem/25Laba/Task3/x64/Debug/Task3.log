@@ -1,3 +1,3 @@
 ﻿  Task3.c
-C:\Users\User\VisualStudioProjects\Labs1sem\25Laba\Task3\Task3.c(26,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\25Laba\Task3\Task3.c(25,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
   Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\25Laba\Task1\x64\Debug\Task3.exe

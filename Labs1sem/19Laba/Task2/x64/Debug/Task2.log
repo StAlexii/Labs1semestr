@@ -1,0 +1,3 @@
+﻿  Task2.c
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task2\Task2.c(28,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task1\x64\Debug\Task2.exe

@@ -1,0 +1,3 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\25Laba\Test\Test.c(29,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\25Laba\Task1\x64\Debug\Test.exe

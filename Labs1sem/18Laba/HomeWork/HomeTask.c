@@ -84,5 +84,4 @@ int main() {
     printf("\nАвиарейс с максимальной скоростью:\n");
     printFlight(&maxSpeedFlight);
 
-    return 0;
 }

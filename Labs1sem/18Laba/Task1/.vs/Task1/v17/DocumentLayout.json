@@ -3,14 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6F1A314-9DFF-4F30-B705-8D4A0586EA6E}|..\\HomeWork\\HomeWork.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\HomeWork\\HomeTask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFC37D8E-8204-4BD5-AE46-4961406D81BB}|..\\Test\\Test.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Test\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{500B2EFD-2BCF-4908-B227-18FBB57DAF9B}|..\\Task2\\Task2.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D6F1A314-9DFF-4F30-B705-8D4A0586EA6E}|..\\HomeWork\\HomeWork.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\HomeWork\\HomeTask.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67F6D11C-646B-45B8-98B6-955811D459FF}|Task1.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Task1\\Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{67F6D11C-646B-45B8-98B6-955811D459FF}|Task1.vcxproj|solutionrelative:Task1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500B2EFD-2BCF-4908-B227-18FBB57DAF9B}|..\\Task2\\Task2.vcxproj|C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Task2\\Task2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +23,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.c",
+              "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Test\\Test.c",
+              "RelativeDocumentMoniker": "..\\Test\\Test.c",
+              "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Test\\Test.c",
+              "RelativeToolTip": "..\\Test\\Test.c",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAADYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-02T21:41:45.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -41,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Task2.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\Task2\\Task2.c",
               "RelativeDocumentMoniker": "..\\Task2\\Task2.c",
@@ -49,18 +65,17 @@
               "RelativeToolTip": "..\\Task2\\Task2.c",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-20T13:12:23.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T13:12:23.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeTask.c",
               "DocumentMoniker": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\HomeWork\\HomeTask.c",
               "RelativeDocumentMoniker": "..\\HomeWork\\HomeTask.c",
               "ToolTip": "C:\\Users\\User\\VisualStudioProjects\\Labs1sem\\18Laba\\HomeWork\\HomeTask.c",
               "RelativeToolTip": "..\\HomeWork\\HomeTask.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAE4AAAAgAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-20T13:12:53.093Z",
               "EditorCaption": ""

@@ -1,0 +1,7 @@
+﻿  Task3.c
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task3\Task3.c(38,11): warning C4477: "scanf": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task3\Task3.c(79,5): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task3\Task3.c(87,15): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char"
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task3\Task3.c(87,15): warning C4024: writefile: различные типы для формального и фактического параметров 1
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task3\Task3.c(81,10): warning C4047: инициализация: "char" отличается по уровням косвенного обращения от "char [11]"
+  Task3.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task1\x64\Debug\Task3.exe

@@ -1,0 +1,10 @@
+﻿  Task2.c
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(101,8): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(111,8): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(115,13): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(116,14): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(117,14): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(118,14): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(122,9): warning C4133: функция: несовместимые типы - из "double *" в "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task2\Task2.c(10,1): warning C4716: fille: должна возвращать значение
+  Task2.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\17Laba\Task17\x64\Debug\Task2.exe

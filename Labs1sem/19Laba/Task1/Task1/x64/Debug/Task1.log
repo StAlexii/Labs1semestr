@@ -1,0 +1,4 @@
+﻿  Task1.c
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task1\Task1.c(33,32): warning C4101: result: неиспользованная локальная переменная
+C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task1\Task1.c(15,1): warning C4716: addNum: должна возвращать значение
+  Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\19Laba\Task1\x64\Debug\Task1.exe

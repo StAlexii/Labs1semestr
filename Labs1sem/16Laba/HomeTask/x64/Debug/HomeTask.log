@@ -1,0 +1,4 @@
+﻿  HomeTask.c
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\HomeTask\HomeTask.c(63,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\HomeTask\HomeTask.c(67,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  HomeTask.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\x64\Debug\HomeTask.exe
