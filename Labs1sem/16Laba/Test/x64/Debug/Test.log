@@ -1,0 +1,4 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Test\Test.c(13,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Test\Test.c(59,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Test.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\x64\Debug\Test.exe

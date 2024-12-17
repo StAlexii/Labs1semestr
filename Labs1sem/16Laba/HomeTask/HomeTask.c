@@ -66,9 +66,9 @@ int main() {
 
     srand(time(NULL));
 
-    int n = 10 + rand() % 41;
-    int m = 10 + rand() % 41;
-    int l = 10 + rand() % 41;
+    int n = 10 + rand() % 1;
+    int m = 10 + rand() % 1;
+    int l = 10 + rand() % 1;
 
     double* a = (double*)malloc(n * sizeof(double));
     double* b = (double*)malloc(m * sizeof(double));
@@ -95,6 +95,4 @@ int main() {
     free(b);
     free(c);
     free(d);
-
-    return 0;
 }

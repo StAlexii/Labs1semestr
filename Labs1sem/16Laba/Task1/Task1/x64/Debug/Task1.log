@@ -1,5 +1,5 @@
 ﻿  Task1.c
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(31,1): warning C4716: printe: должна возвращать значение
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(24,1): warning C4716: calce: должна возвращать значение
-C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(16,1): warning C4716: fille: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(27,1): warning C4716: printe: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(21,1): warning C4716: calce: должна возвращать значение
+C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\Task1.c(14,1): warning C4716: fille: должна возвращать значение
   Task1.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\16Laba\Task1\x64\Debug\Task1.exe

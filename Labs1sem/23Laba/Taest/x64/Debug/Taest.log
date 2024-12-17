@@ -1,0 +1,10 @@
+﻿  Test.c
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(17,10): warning C4047: =: "list *" отличается по уровням косвенного обращения от "list"
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(46,6): error C2084: функция "void insertfront(list *,int)" уже имеет текст реализации
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(49,5): warning C4013: strcpy: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(54,6): error C2084: функция "void insertback(list *,int)" уже имеет текст реализации
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(74,6): error C2061: синтаксическая ошибка: идентификатор "isempty"
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(74,6): error C2059: синтаксическая ошибка: ;
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(74,14): error C2059: синтаксическая ошибка: <parameter-list>
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(130,6): error C2084: функция "list getitem(list,int)" уже имеет текст реализации
+C:\Users\User\VisualStudioProjects\Labs1sem\23Laba\Taest\Test.c(134,13): warning C4013: strcmp: нет определения; предполагается "extern" с возвратом типа "int"

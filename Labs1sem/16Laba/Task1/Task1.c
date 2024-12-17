@@ -45,6 +45,8 @@ int main() {
 	}
 
 	fille(ptr_array, size);
+	printe(ptr_array, size);
+	printf("\n");
 	calce(ptr_array, size);
 	printe(ptr_array, size);
 
