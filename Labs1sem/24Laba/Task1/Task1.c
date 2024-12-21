@@ -1,55 +1,33 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
+#include "stack.h"
 
-#define NMAX 100
-#define TYPE char
-#define FTYPE "%3c,"
-
-typedef struct Stack {
-    int top;
-    TYPE data[NMAX];
-} stack;
-
-// Проверить, если стек пуст
 int isempty(stack* s) {
     return s->top == 0;
 }
 
-// Проверить, если стек полон
 int isfull(stack* s) {
     return s->top == NMAX - 1;
 }
 
-// Добавить элемент в стек
+// добавить элемент в стек
 int push(stack* s, TYPE a) {
-    if (isfull(s)) {
-        printf("Стек полон, невозможно добавить элемент '%c'\n", a);
-        return 0;
-    }
     s->data[++(s->top)] = a;
     return 1;
 }
 
-// Извлечь элемент из стека
+// извлечь элемент из стека
 TYPE pop(stack* s) {
-    if (isempty(s)) {
-        printf("Стек пуст, невозможно извлечь элемент\n");
-        return 0;
-    }
     return s->data[(s->top)--];
 }
 
-// Вернуть элемент на вершине стека
+// элемент на вершине стека
 TYPE top(stack* s) {
-    if (isempty(s)) {
-        printf("Стек пуст, вершины нет\n");
-        return 0;
-    }
     return s->data[s->top];
 }
 
-// Вывести содержимое стека (без изменения)
+// содержимое стека (без изменения)
 void display(stack* s) {
     int i = s->top;
     while (i > 0)
@@ -59,15 +37,14 @@ void display(stack* s) {
 
 int main() {
     stack s;
-    s.top = 0; // Инициализация стека
+    s.top = 0;
     setlocale(LC_ALL, "ru");
     system("color F0");
 
     char input[NMAX];
-    printf("Введите строку");
+    printf("Введите строку ");
     fgets(input, NMAX, stdin);
 
-    // Добавление символов в стек
     for (int i = 0; input[i] != '\0' && input[i] != '\n'; i++) {
         push(&s, input[i]);
     }
@@ -77,3 +54,4 @@ int main() {
 
     return 0;
 }
+//элементы записываются в стек по порядку: 12345, 5 на вершине, в позиции top, поэтому выводится зеркально

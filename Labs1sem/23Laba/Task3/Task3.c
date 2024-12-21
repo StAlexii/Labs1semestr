@@ -1,105 +1,127 @@
-#include<stdio.h>
-#include<locale.h>
-#include<string.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "list.h"
 
-typedef struct {
-    char material[20];
+typedef struct Cornice {
     int length;
     int ceilingWidth;
     int wallHeight;
+    char material[20];
 } cornice_t;
 
-typedef struct node {
-    cornice_t data;
-    struct node* next;
-} node;
-
-node* arrayToList(cornice_t* array, int size) {
-    node* head = NULL;
-    node* tail = NULL;
-
+// Convert array of cornices to linked list
+void array_to_list(cornice_t* array, int size, List* list) {
     for (int i = 0; i < size; i++) {
-        node* newNode = (node*)malloc(sizeof(node));
-        newNode->data = array[i];
-        newNode->next = NULL;
-
-        if (!head) {
-            head = newNode;
-            tail = newNode;
-        }
-        else {
-            tail->next = newNode;
-            tail = newNode;
-        }
+        insertback(list, array[i]);
     }
-
-    return head;
 }
 
-void merge(node** headRef) {
-    node* head = *headRef;
-    if (!head || !head->next) return;
+// Display the list of cornices
+void display_cornices(List list) {
+    while (list != NULL) {
+        printf("Material: %s, Length: %d, Ceiling Width: %d, Wall Height: %d\n",
+            list->data.material, list->data.length,
+            list->data.ceilingWidth, list->data.wallHeight);
+        list = list->next;
+    }
+}
 
-    node* mid = head;
-    node* fast = head->next;
+// Find a cornice by material name
+List find_by_material(List list, const char* material) {
+    while (list != NULL) {
+        if (strcmp(list->data.material, material) == 0) {
+            return list;
+        }
+        list = list->next;
+    }
+    return NULL;
+}
 
-    while (fast && fast->next) {
-        mid = mid->next;
+// Merge function for merge sort
+List merge(List left, List right) {
+    if (left == NULL) return right;
+    if (right == NULL) return left;
+
+    if (left->data.length <= right->data.length) {
+        left->next = merge(left->next, right);
+        return left;
+    }
+    else {
+        right->next = merge(left, right->next);
+        return right;
+    }
+}
+
+// Split the list into two halves
+void split(List head, List* left, List* right) {
+    List slow = head;
+    List fast = head->next;
+
+    while (fast != NULL && fast->next != NULL) {
+        slow = slow->next;
         fast = fast->next->next;
     }
 
-    node* left = head;
-    node* right = mid->next;
-    mid->next = NULL;
-
-    merge(&left);
-    merge(&right);
-
-    node* merged = NULL;
-    node** tail = &merged;
-
-    while (left && right) {
-        if (left->data.length <= right->data.length) {
-            *tail = left;
-            left = left->next;
-        }
-        else {
-            *tail = right;
-            right = right->next;
-        }
-        tail = &(*tail)->next;
-    }
-
-    *tail = left ? left : right;
-    *headRef = merged;
+    *left = head;
+    *right = slow->next;
+    slow->next = NULL;
 }
 
-void printList(node* head) {
-    while (head) {
-        printf("Материал: %s, Длина: %d, Ширина: %d, Высота: %d\n",
-            head->data.material, head->data.length, head->data.ceilingWidth, head->data.wallHeight);
-        head = head->next;
+// Merge sort for the linked list
+List merge_sort(List head) {
+    if (head == NULL || head->next == NULL) {
+        return head;
     }
-}
-void main(){
-    system("color F0");
-    setlocale(LC_ALL, "ru");
 
-    cornice_t array[] = {
-    {"Wood",10,5,3},
-    {"Aluminium",8,4,2},
-    {"Plastic", 12,5,4 },
-    {"Steel", 6,3,2 },
-    {"Metal", 9,6,3}
+    List left = NULL, right = NULL;
+    split(head, &left, &right);
+
+    left = merge_sort(left);
+    right = merge_sort(right);
+
+    return merge(left, right);
+}
+
+int main() {
+    cornice_t cornices[] = {
+        {"Wood", 200, 30, 40},
+        {"Metal", 150, 25, 35},
+        {"Plastic", 180, 28, 38},
     };
-    int size = sizeof(array) / sizeof(array[0]);
 
-    node* list = arrayToList(array, size);
-    merge(&list);
+    int size = sizeof(cornices) / sizeof(cornices[0]);
 
-    printf("Отсортированный список:\n");
-    printList(list);
+    List cornice_list;
+    initlist(&cornice_list);
+
+    // Convert array to linked list
+    array_to_list(cornices, size, &cornice_list);
+
+    printf("Original List:\n");
+    display_cornices(cornice_list);
+
+    // Sort the list
+    cornice_list = merge_sort(cornice_list);
+    printf("\nSorted List by Length:\n");
+    display_cornices(cornice_list);
+
+    // Find an element by material
+    const char* search_material = "Metal";
+    List found = find_by_material(cornice_list, search_material);
+    if (found != NULL) {
+        printf("\nFound Cornice: Material: %s, Length: %d, Ceiling Width: %d, Wall Height: %d\n",
+            found->data.material, found->data.length,
+            found->data.ceilingWidth, found->data.wallHeight);
+    }
+    else {
+        printf("\nCornice with material '%s' not found.\n", search_material);
+    }
+
+    // Free the list
+    while (!isempty(cornice_list)) {
+        destroyItem(&cornice_list, cornice_list);
+    }
 
     return 0;
 }

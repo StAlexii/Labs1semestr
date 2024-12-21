@@ -1,0 +1,4 @@
+Ador,1,2,1,Bluetooth,1,8,Red,Gaming,18000,Optical
+Hp,0,1,0,Usb,0,5,Gray,Office,12000,Laser
+Razor,1,1,1,Usb,1,12,Green,Gaming,17000,Optical
+Bloody,1,1,1,Usb,1,9,Orange,Gaming,20000,Optical

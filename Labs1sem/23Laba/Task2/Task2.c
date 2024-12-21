@@ -1,171 +1,126 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <stdbool.h>
+#include <string.h>
+#include "list.h"
 #include <locale.h>
 
-struct listitem {
-    int number;
-    char name[80];
-    struct listitem* next;
-};
-
-typedef struct listitem* List;
-
 void initlist(List* list) {
-    *list = NULL;
+	*list = NULL;
 }
 
-void insertfront(List* list, int val) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = val;
-    strcpy(new_item->name, "");
-    new_item->next = *list;
-    *list = new_item;
-}
+void insertback_by_name(List* list, char* str) {
+	List newNode = (List)malloc(sizeof(struct listitem));
+	newNode->number = 0;
+	strcpy(newNode->name, str);
+	newNode->next = NULL;
 
-void insertback(List* list, int val) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = val;
-    strcpy(new_item->name, "");
-    new_item->next = NULL;
-
-    if (*list == NULL) {
-        *list = new_item;
-    }
-    else {
-        struct listitem* current = *list;
-        while (current->next != NULL) {
-            current = current->next;
-        }
-        current->next = new_item;
-    }
-}
-
-void insertfront_name(List* list, char* str) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = 0;
-    strncpy(new_item->name, str, sizeof(new_item->name) - 1);
-    new_item->name[sizeof(new_item->name) - 1] = '\0';
-    new_item->next = *list;
-    *list = new_item;
-}
-
-void insertback_name(List* list, char* str) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = 0;
-    strncpy(new_item->name, str, sizeof(new_item->name) - 1);
-    new_item->name[sizeof(new_item->name) - 1] = '\0';
-    new_item->next = NULL;
-
-    if (*list == NULL) {
-        *list = new_item;
-    }
-    else {
-        struct listitem* current = *list;
-        while (current->next != NULL) {
-            current = current->next;
-        }
-        current->next = new_item;
-    }
-}
-
-bool isempty(List* list) {
-    return *list == NULL;
-}
-
-int length(List list) {
-    int count = 0;
-    while (list != NULL) {
-        count++;
-        list = list->next;
-    }
-    return count;
+	if (*list == NULL) {
+		*list = newNode;
+	}
+	else {
+		List temp = *list;
+		while (temp->next != NULL) {
+			temp = temp->next;
+		}
+		temp->next = newNode;
+	}
 }
 
 void destroyItem(List* list, List node) {
-    if (*list == NULL || node == NULL) {
-        return;
-    }
+	if (*list == NULL || node == NULL) return;
 
-    if (*list == node) {
-        *list = node->next;
-        free(node);
-        return;
-    }
+	if (*list == node) {
+		*list = node->next;
+		free(node);
+		return;
+	}
 
-    struct listitem* current = *list;
-    while (current->next != NULL && current->next != node) {
-        current = current->next;
-    }
+	List temp = *list;
+	while (temp->next != NULL && temp->next != node) {
+		temp = temp->next;
+	}
 
-    if (current->next == node) {
-        current->next = node->next;
-        free(node);
-    }
+	if (temp->next == node) {
+		temp->next = node->next;
+		free(node);
+	}
 }
 
-struct listitem* getitem_number(List list, int n) {
-    while (list != NULL) {
-        if (list->number == n) {
-            return list;
-        }
-        list = list->next;
-    }
-    return NULL;
+List getitem_by_name(List list, char* str) {
+	while (list != NULL) {
+		if (strcmp(list->name, str) == 0) {
+			return list;
+		}
+		list = list->next;
+	}
+	return NULL;
 }
 
-struct listitem* getitem_name(List list, char* str) {
-    while (list != NULL) {
-        if (strcmp(list->name, str) == 0) {
-            return list;
-        }
-        list = list->next;
-    }
-    return NULL;
+int length(List list) {
+	int len = 0;
+	while (list != NULL) {
+		len++;
+		list = list->next;
+	}
+	return len;
 }
 
 int main() {
-    List myList;
-    initlist(&myList);
-    system("color F0");
-    setlocale(LC_ALL, "ru");
+	setlocale(LC_ALL, "ru");
+	system("color F0");
+	List myList;
+	initlist(&myList);
 
-    insertback(&myList, 10);
-    insertback(&myList, 20);
-    insertback(&myList, 30);
-    insertback(&myList, 40);
-    insertback(&myList, 50);
-    insertback(&myList, 60);
+	char z[20], s4[20];
+	int choise, s1, s3, s2;
 
-    struct listitem* current = myList;
-    int position = 1;
-    int sum = 0;
-    int count = 0;
+	insertback_by_name(&myList, "Get_out_of_bed");
+	insertback_by_name(&myList, "Go_to_VGTU");
+	insertback_by_name(&myList, "Go_home");
 
-    while (current != NULL) {
-        if (position >= 3) {
-            sum += current->number;
-            count++;
-        }
-        current = current->next;
-        position++;
-    }
+	do {
+		List temp = myList;
+		int ff = 1;
+		printf("Меню\n");
+		printf("1 - добавить задачу\n");
+		printf("2 - Вывести список N задач\n");
+		printf("3 - Удалить выполненные задачи\n");
+		printf("0 - Выход\n");
+		printf("Ваш выбор? ");
+		scanf("%d", &choise);
 
-    printf("Элементы списка:\n");
-    current = myList;
-    position = 1;
-    while (current != NULL) {
-        printf("Элемент %d: %d\n", position, current->number);
-        current = current->next;
-        position++;
-    }
+		switch (choise) {
+		case 1:
+			printf("Введите задачу: ");
+			scanf("%s", z);
+			insertback_by_name(&myList, z);
+			break;
 
-    if (count > 0) {
-        double average = (double)sum / count;
-        printf("Среднее значение, начиная с 3-го: %.2f\n", average);
-    }
-    else {
-        printf("В листе недостаточно элементов.\n");
-    }
+		case 2:
+			printf("Сколько элементов вывести? (Всего - %d)\n", length(myList));
+			scanf("%d", &s1);
+
+			if (s1 > length(myList)) {
+				printf("Элементов в списке меньше\n");
+				break;
+			}
+
+			for (int i = 0; i < s1; i++) {
+				if (temp != NULL) {
+					printf("Задача %d: %s\n", ff, temp->name);
+					temp = temp->next;
+					ff += 1;
+				}
+			}
+			break;
+
+		case 3:
+			printf("Какую задачу удалить? ");
+			scanf("%s", s4);
+			List foundByName = getitem_by_name(myList, s4);
+			destroyItem(&myList, foundByName);
+			break;
+		}
+	} while (choise != 0);
 }

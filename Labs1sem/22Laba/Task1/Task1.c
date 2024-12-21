@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <locale.h>
-
+//100 -200
 double Y(double x) {
     if (x > 0) {
         return log(sqrt(fabs(pow(x, 3))));

@@ -1,0 +1,8 @@
+﻿  Kursovaya.c
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(28,11): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "bool *"
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(87,23): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(87,23): warning C4313: fprintf: конфликт "%d" в строке формата с аргументом 2 типа "int *"
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(109,23): warning C4477: "fscanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "2" имеет тип "bool *"
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(196,27): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "bool *"
+C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\Kursovaya.c(252,1): warning C4715: editMouse: значение возвращается не при всех путях выполнения
+  Курсовая.vcxproj -> C:\Users\User\VisualStudioProjects\Labs1sem\Курсовой\Курсовая\x64\Debug\Курсовая.exe

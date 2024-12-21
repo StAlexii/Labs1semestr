@@ -1,91 +1,81 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <stdbool.h>
-
-struct listitem {
-    int number;
-    char name[80];
-    struct listitem* next;
-};
-
-typedef struct listitem* List;
-
+#include <string.h>
+#include "list.h"
+#include <locale.h>
+//10
 void initlist(List* list) {
     *list = NULL;
 }
 
 void insertfront(List* list, int val) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = val;
-    strcpy(new_item->name, ""); // Clear name field
-    new_item->next = *list;
-    *list = new_item;
+    List newNode = (List)malloc(sizeof(struct listitem));
+    newNode->number = val;
+    strcpy(newNode->name, "");
+    newNode->next = *list;
+    *list = newNode;
 }
 
 void insertback(List* list, int val) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = val;
-    strcpy(new_item->name, ""); // Clear name field
-    new_item->next = NULL;
+    List newNode = (List)malloc(sizeof(struct listitem));
+    newNode->number = val;
+    strcpy(newNode->name, "");
+    newNode->next = NULL;
 
     if (*list == NULL) {
-        *list = new_item;
+        *list = newNode;
     }
     else {
-        struct listitem* current = *list;
-        while (current->next != NULL) {
-            current = current->next;
+        List temp = *list;
+        while (temp->next != NULL) {
+            temp = temp->next;
         }
-        current->next = new_item;
+        temp->next = newNode;
     }
 }
 
-void insertfront_name(List* list, char* str) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = 0; // Default number
-    strncpy(new_item->name, str, sizeof(new_item->name) - 1);
-    new_item->name[sizeof(new_item->name) - 1] = '\0'; // Null-terminate
-    new_item->next = *list;
-    *list = new_item;
+void insertfront_by_name(List* list, char* str) {
+    List newNode = (List)malloc(sizeof(struct listitem));
+    newNode->number = 0;
+    strcpy(newNode->name, str);
+    newNode->next = *list;
+    *list = newNode;
 }
 
-void insertback_name(List* list, char* str) {
-    struct listitem* new_item = (struct listitem*)malloc(sizeof(struct listitem));
-    new_item->number = 0; // Default number
-    strncpy(new_item->name, str, sizeof(new_item->name) - 1);
-    new_item->name[sizeof(new_item->name) - 1] = '\0'; // Null-terminate
-    new_item->next = NULL;
+void insertback_by_name(List* list, char* str) {
+    List newNode = (List)malloc(sizeof(struct listitem));
+    newNode->number = 0;
+    strcpy(newNode->name, str);
+    newNode->next = NULL;
 
     if (*list == NULL) {
-        *list = new_item;
+        *list = newNode;
     }
     else {
-        struct listitem* current = *list;
-        while (current->next != NULL) {
-            current = current->next;
+        List temp = *list;
+        while (temp->next != NULL) {
+            temp = temp->next;
         }
-        current->next = new_item;
+        temp->next = newNode;
     }
 }
 
-bool isempty(List* list) {
-    return *list == NULL;
+bool isempty(List list) {
+    return list == NULL;
 }
 
 int length(List list) {
-    int count = 0;
+    int len = 0;
     while (list != NULL) {
-        count++;
+        len++;
         list = list->next;
     }
-    return count;
+    return len;
 }
 
 void destroyItem(List* list, List node) {
-    if (*list == NULL || node == NULL) {
-        return;
-    }
+    if (*list == NULL || node == NULL) return;
 
     if (*list == node) {
         *list = node->next;
@@ -93,18 +83,18 @@ void destroyItem(List* list, List node) {
         return;
     }
 
-    struct listitem* current = *list;
-    while (current->next != NULL && current->next != node) {
-        current = current->next;
+    List temp = *list;
+    while (temp->next != NULL && temp->next != node) {
+        temp = temp->next;
     }
 
-    if (current->next == node) {
-        current->next = node->next;
+    if (temp->next == node) {
+        temp->next = node->next;
         free(node);
     }
 }
 
-struct listitem* getitem_number(List list, int n) {
+List getitem_by_number(List list, int n) {
     while (list != NULL) {
         if (list->number == n) {
             return list;
@@ -114,7 +104,7 @@ struct listitem* getitem_number(List list, int n) {
     return NULL;
 }
 
-struct listitem* getitem_name(List list, char* str) {
+List getitem_by_name(List list, char* str) {
     while (list != NULL) {
         if (strcmp(list->name, str) == 0) {
             return list;
@@ -122,4 +112,75 @@ struct listitem* getitem_name(List list, char* str) {
         list = list->next;
     }
     return NULL;
+}
+
+int main() {
+    List myList;
+    initlist(&myList);
+    system("color F0");
+    setlocale(LC_ALL, "ru");
+    int d1, d2, d3, d4, d5;
+
+    printf("Лист пустой? %s\n", isempty(myList) ? "Нет" : "Да");
+
+    insertfront(&myList, 10);
+    insertback(&myList, 20);
+    insertfront_by_name(&myList, "Первый");
+    insertback_by_name(&myList, "Последний");
+
+    
+    printf("введите номер элемента\n");
+    scanf_s("%d", &d1);
+
+    List foundByNumber = getitem_by_number(myList, d1);
+    if (foundByNumber) {
+        printf("Элемент есть в списке: %d\n", foundByNumber->number);
+    }
+    else {
+        printf("Элемент с номером %d не найден.\n", d1);
+    }
+
+    List foundByName1 = getitem_by_name(myList, "Последний");
+    List foundByName2 = getitem_by_name(myList, "Первый");
+    if (foundByName1) {
+        printf("Элемент с именем %s есть в списке\n", foundByName1->name);
+    }
+    else {
+        printf("Элемент с именем 'Последний' не найден.\n");
+    }
+
+    printf("Размер листа: %d\n", length(myList));
+
+    printf("Удалить по номеру или имени?");
+    scanf_s("%d", &d4);
+
+    if (d4 == 1) {
+        destroyItem(&myList, foundByNumber);
+        printf("Длина после удаления элемента с номером %d: %d\n", d1, length(myList));
+    }
+    else {
+        printf("Удалить первый или последний?");
+        scanf_s("%d", &d5);
+        if (d5 == 1) {
+            destroyItem(&myList, foundByName2);
+            printf("Длина после удаления элемента с именем %s: %d\n", "Первый", length(myList));
+        }
+        else {
+            destroyItem(&myList, foundByName1);
+            printf("Длина после удаления элемента с именем %s: %d\n", "Последний", length(myList));
+        }
+
+    }
+
+    List temp = myList;
+    while (temp != NULL) {
+        printf("Элемент номер = %d, имя = %s\n", temp->number, temp->name);
+        temp = temp->next;
+    }
+
+    while (!isempty(myList)) {
+        destroyItem(&myList, myList);
+    }
+
+    printf("Лист отчищен");
 }

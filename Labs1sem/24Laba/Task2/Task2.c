@@ -1,21 +1,10 @@
 #include <stdio.h>
 #include<locale.h>
 #include <stdlib.h>
+#include "list2.h"
+#include "stack.h"
 
-#define TYPE char
-#define FTYPE "%3c"
-#define NSTR 100
-
-struct Node {
-    TYPE data;
-    struct Node* next;
-};
-
-typedef struct {
-    struct Node* front;
-    struct Node* back;
-} queue_list;
-
+//заполняется 12345, выходят с 1
 void enQueue(queue_list* que, TYPE element) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = element;
@@ -48,11 +37,11 @@ void queue_test() {
     queue_list Str;
     Str.back = Str.front = NULL;
 
-    char temp[NSTR];
+    char temp[100];
     system("chcp 1251");
     puts("Введите строку:");
     fgets(temp, NSTR - 1, stdin);
-
+    //заполнение очереди символов из введенной строки
     for (int i = 0; i < NSTR - 1 && temp[i] != '\n' && temp[i]; i++) {
         enQueue(&Str, temp[i]);
     }

@@ -1,47 +1,122 @@
+//#include <stdio.h>
+//#include <locale.h>
+//#include "stack.h"
+//#include "list2.h"
+//
+//int main() {
+//
+//}
+
 #include <stdio.h>
-#include <locale.h>
-//5 10
-void process_file(FILE* input, FILE* output, int a, int b) {
-    int num;
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include "list2.h"
 
-    while (fscanf(input, "%d", &num) != EOF) {
-        if (num < a) {
-            fprintf(output, "%d ", num);
-        }
-        else if (num >= a && num <= b) {
-            fprintf(output, "%d ", num);
-        }
+// Функция для создания новой очереди
+queue_list* createQueue() {
+    queue_list* que = (queue_list*)malloc(sizeof(queue_list));
+    que->queue = NULL;
+    que->front = NULL;
+    que->back = NULL;
+    return que;
+}
+
+// Функция для добавления элемента в очередь
+void enQueue(queue_list* que, TYPE element) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = element;
+    newNode->next = NULL;
+
+    if (que->back == NULL) {
+        que->front = newNode;
+        que->back = newNode;
     }
-
-    // чтение файла для записи чисел, которые больше b
-    fseek(input, 0, SEEK_SET);  // в начало файла
-    while (fscanf(input, "%d", &num) != EOF) {
-        if (num > b) {
-            fprintf(output, "%d ", num);  // число больше b
-        }
+    else {
+        que->back->next = newNode;
+        que->back = newNode;
     }
 }
 
-int main() {
-    setlocale(LC_ALL, "ru");
-    system("color F0");
-    int a, b;
-    FILE* input_file = fopen("input.txt", "r");
-    FILE* output_file = fopen("output.txt", "w");
-
-    if (input_file == NULL || output_file == NULL) {
-        printf("Ошибка при открытии файлов!\n");
-        return 1;
+// Функция для извлечения элемента из очереди
+TYPE deQueue(queue_list* que) {
+    if (que->front == NULL) {
+        fprintf(stderr, "Queue is empty\n");
+        exit(EXIT_FAILURE);
     }
 
-    printf("Введите диапазон [a, b]: ");
-    scanf_s("%d %d", &a, &b);
+    struct Node* temp = que->front;
+    TYPE data = temp->data;
 
-    process_file(input_file, output_file, a, b);
+    que->front = que->front->next;
+    if (que->front == NULL) {
+        que->back = NULL;
+    }
 
-    fclose(input_file);
-    fclose(output_file);
+    free(temp);
+    return data;
+}
 
-    printf("Результат записан в output.txt\n");
+// Проверка, пуста ли очередь
+int isQueueEmpty(queue_list* que) {
+    return que->front == NULL;
+}
+
+// Функция для обработки строк из файла
+void processFile(const char* inputFile, const char* outputFile) {
+    FILE* in = fopen(inputFile, "r");
+    FILE* out = fopen(outputFile, "w");
+
+    if (!in || !out) {
+        perror("Error opening file");
+        exit(EXIT_FAILURE);
+    }
+
+    char line[1024];
+    while (fgets(line, sizeof(line), in)) {
+        queue_list* digitQueue = createQueue();
+        char result[1024] = "";
+        size_t len = strlen(line);
+
+        // Удаление символа новой строки, если он есть
+        if (len > 0 && line[len - 1] == '\n') {
+            line[len - 1] = '\0';
+        }
+
+        for (size_t i = 0; i < strlen(line); i++) {
+            if (isdigit(line[i])) {
+                enQueue(digitQueue, line[i]);
+            }
+            else {
+                size_t resLen = strlen(result);
+                result[resLen] = line[i];
+                result[resLen + 1] = '\0';
+            }
+        }
+
+        // Добавляем цифры из очереди в конец строки
+        while (!isQueueEmpty(digitQueue)) {
+            size_t resLen = strlen(result);
+            result[resLen] = deQueue(digitQueue);
+            result[resLen + 1] = '\0';
+        }
+
+        fprintf(out, "%s\n", result);
+
+        // Очистка памяти очереди
+        free(digitQueue);
+    }
+
+    fclose(in);
+    fclose(out);
+}
+
+int main() {
+    const char* inputFile = "f.txt";
+    const char* outputFile = "g.txt";
+
+    processFile(inputFile, outputFile);
+
+    printf("Processing complete. Check '%s'.\n", outputFile);
     return 0;
 }
